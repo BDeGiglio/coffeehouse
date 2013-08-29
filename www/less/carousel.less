@@ -1,0 +1,76 @@
+#hero  {
+	background-image: url("../img/exterior.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 320px;;
+	margin-bottom: 40px;
+	width: 102%;}
+
+.mobile-info {
+	background-color: rgba(0,0,0,.75);
+	color: @textColor;
+	width: 200px;
+	height: 120px;
+	float: right;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.btn-custom {
+	font-size: 1em;
+	word-spacing: -.5em;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.carousel-inner {
+	width: 102%;
+	max-height: 420px;
+}
+
+.carousel-indicators {
+	bottom: -40px;
+}
+
+.carousel-control .icon-next,
+.carousel-control .icon-prev {;
+	margin-top: -85px;
+	font-size: 100px;
+}
+
+
+.carousel {
+	background: #120a05;
+}
+
+.carousel-inner > .item > img {
+	max-height: 360px;
+}
+@media (min-width: @screen-sm) {
+	.carousel-inner > .item > img {
+		padding-left: 1%;
+		margin: 0;
+	}
+}
+@media (min-width: @screen-md) {
+	.carousel-inner > .item > img {
+		padding-left: 5%;
+		margin: 0 0 0 5%;
+	}
+}
+@media (min-width: @screen-lg) {
+	.carousel-inner > .item > img {
+		padding-left: 15%;
+	}
+}
+
+
+@media (min-width: @screen-md) {
+	div.item.active {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

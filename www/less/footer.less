@@ -1,0 +1,37 @@
+.footer-logo {
+	font-family: 'Lobster', cursive;
+	color: @textColor;
+	font-size: 2.5em;
+	width: 100%;
+	text-align: left;
+	text-shadow:2px 2px #6d564e;
+	margin-bottom: 40px;
+	margin-left: 15px;
+	width: 40%;
+	display: inline-block;
+}
+
+footer {
+	background: #000;
+	width: 102%;
+	padding: 20px 0;
+	border-top: solid 1px #3e3030;
+	overflow: auto;
+}
+
+.footer-address {
+	margin-left: 15px;
+	color: @textColor;
+}
+
+@media (min-width: @screen-sm) {
+	.footer-address{
+		float: right;
+		margin-right: 12%;
+	}
+
+	.footer-logo { 
+		margin-left: 7%;
+		float: left;
+	}
+}
