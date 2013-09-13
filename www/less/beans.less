@@ -1,0 +1,83 @@
+/*==================================================================================
+===================================== BEANS ======================================
+==================================================================================*/
+
+#hero_beans  {
+	background-image: url("../img/store-ad.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 320px;;
+	margin-bottom: 40px;
+	width: 102%;}
+
+.beans-content-title {
+	font-family: 'Holtwood One SC', serif;
+	font-size: 2em;
+	color: @textColor;
+	width: 90%;
+	border-bottom: solid 2px @textColor;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-left: 5% 
+}
+
+.beans_content {
+	float: left;
+	width: 100%;
+}
+
+.bean_choice {
+	list-style: none;
+	border-bottom: solid 1px @textColor;
+	margin-left: 3%;
+	padding: 10px 0;
+	a {
+		padding: 10px 0;
+		color: #c9a291;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		-ms-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+	}
+}
+
+.bean_choice a:hover {
+		opacity: .7;
+	}
+
+.beans-sidebar {
+	float: left;
+	width: 20%;
+	margin-left: 20px;
+}
+
+.coffee_beans_container {
+	float: left;
+	margin-left: 50px;
+	width: 70%;
+	@media (min-width: @screen-lg) { 
+		width: 60%;
+		margin-left: 10%;
+	}
+}
+
+.coffee_bean_choice {
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	.coffee_bean_name {
+		color: @textColor;
+		margin-top: 10px;
+		font-size: .9em;
+	}
+	.stars_rating {
+		color: @textColor;
+		font-size: .8em;
+	}
+}
+
+
+
+
