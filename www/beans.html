@@ -9,6 +9,7 @@
   </head>
   <body>
     <a href="index.html"><h1>The Coffee House</h1></a>
+    <a class="cart" href="#"><span class="glyphicon glyphicon-shopping-cart cart-hover"></span><span class="move_left">0 Items</span></a>
 
 <!--   HERO SECTION -->
     <div id="hero_beans"></div>
@@ -19,57 +20,148 @@
     <div class="beans_content">
         <aside class="beans-sidebar">
             <ul>
-                <li class="bean_choice"><a href="#self">Light and Subtle</a></li>
-                <li class="bean_choice"><a href="#self">Light and distinctive</a></li>
-                <li class="bean_choice"><a href="#self">Medium and Smooth</a></li>
-                <li class="bean_choice"><a href="#self">dark and distinctive</a></li>
-                <li class="bean_choice"><a href="#self">Decaffeinated</a></li>
-                <li class="bean_choice"><a href="#self">Flavored</a></li>
-                <li class="bean_choice"><a href="#self">Reserve</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">Light and Subtle</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">Light and distinctive</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">Medium and Smooth</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">dark and distinctive</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">Decaffeinated</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">Flavored</a></li>
+                <li class="bean_choice col-sm-12"><a href="#self">Reserve</a></li>
             </ul>
+
           </aside>
           <div class="coffee_beans_container">
-              <div class="coffee_bean_choice">
-                <img src="img/store-item.jpg" alt="" width="200">
-                <div class="coffee_bean_name">This is the name</div>
-                <div class="stars_rating">IDK what to do for stars</div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" id="test" class="coffee_bean_name info_modal" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
-        
-              <div class="coffee_bean_choice">
-                <img src="img/store-item.jpg" alt="" width="200">
-                <div class="coffee_bean_name">This is the name</div>
-                <div class="stars_rating">IDK what to do for stars</div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
-        
-              <div class="coffee_bean_choice">
-                <img src="img/store-item.jpg" alt="" width="200">
-                <div class="coffee_bean_name">This is the name</div>
-                <div class="stars_rating">IDK what to do for stars</div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
-        
-              <div class="coffee_bean_choice">
-                <img src="img/store-item.jpg" alt="" width="200">
-                <div class="coffee_bean_name">This is the name</div>
-                <div class="stars_rating">IDK what to do for stars</div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
-        
-              <div class="coffee_bean_choice">
-                <img src="img/store-item.jpg" alt="" width="200">
-                <div class="coffee_bean_name">This is the name</div>
-                <div class="stars_rating">IDK what to do for stars</div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
-        
-              <div class="coffee_bean_choice">
-                <img src="img/store-item.jpg" alt="" width="200">
-                <div class="coffee_bean_name">This is the name</div>
-                <div class="stars_rating">IDK what to do for stars</div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-4">
+                <a href="bean_item.html"><img class="beans_choice_img" src="img/store-item.jpg" alt="" width="200"></a>
+                <a data-toggle="modal" class="coffee_bean_name info_modal no-click" href="#myModal">This is the name</a>
+                <div class="stars_rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+              </div>
+              
           </div>
     </div>
 
+    <!-- Modal -->
+  <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">House Blend</h4>
+        </div>
+        <div class="modal-body">
+          <p class="bean_info">This is a very descriptive paragraph describing the taste, aroma, boldness and  other specific qualities that have to do with this particular type of bean. Now I am just typing in order to make the paragraph longer. I really dont know anything about coffee so therefore I could only make up one sentence that makes sense in terms of a coffee description.</p> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Add to Cart</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
 <!--  FOOTER -->
     <footer>
-      <h1 class="footer-logo">The Coffee House</h1>
+      <h2 class="footer-logo">The Coffee House</h2>
+
+    <div class="social"> 
+        <div class="facebook"><a href="#self">a</a></div>
+        <div class="twitter"><a href="#self">c</a></div>
+        <div class="pinterest"><a href="#self">b</a></div>
+    </div>
+
       <div class="footer-address">
         <address> 
            Address line 1 <br>
@@ -82,8 +174,7 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jQuery.js"></script>
-    <script src="js/vendor.js"></script>
+    <script src="js/vendor-ck.js"></script>
     <script src="js/main.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
   </body>
 </html>

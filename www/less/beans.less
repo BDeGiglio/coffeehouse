@@ -8,7 +8,8 @@
 	background-repeat:no-repeat;
 	height: 320px;;
 	margin-bottom: 40px;
-	width: 102%;}
+	width: 102%;
+}
 
 .beans-content-title {
 	font-family: 'Holtwood One SC', serif;
@@ -29,9 +30,7 @@
 
 .bean_choice {
 	list-style: none;
-	border-bottom: solid 1px @textColor;
 	margin-left: 3%;
-	padding: 10px 0;
 	a {
 		padding: 10px 0;
 		color: #c9a291;
@@ -48,36 +47,131 @@
 	}
 
 .beans-sidebar {
+	width: 98%;
+	margin-left: -23px;
 	float: left;
-	width: 20%;
-	margin-left: 20px;
+	@media (min-width: @screen-md) {
+		.beans-sidebar {
+			width: 20%;
+		}
+	}
+	a {
+		float: left;
+		padding: 10px 0;
+		width: 100%;
+		border-bottom: solid 1px @textColor;
+		}
+	a:hover {
+		 background-color: #c9a291;
+		 color: #453627;
+	}
+	ul {
+		overflow: auto;
+		margin-bottom: 20px;
+	}
 }
+
+@media (min-width: @screen-sm) {
+	.beans-sidebar {
+		width: 26%;
+		margin-left: -1%;
+	}
+
+}
+@media (min-width: @screen-md) {
+	.beans-sidebar {
+		width: 24%;
+		margin-left: 1%;
+	}
+}
+
 
 .coffee_beans_container {
 	float: left;
 	margin-left: 50px;
-	width: 70%;
+	width: 67%;
 	@media (min-width: @screen-lg) { 
 		width: 60%;
 		margin-left: 10%;
 	}
 }
 
-.coffee_bean_choice {
-	float: left;
-	margin-left: 30px;
-	margin-bottom: 30px;
+.col-md-4 {
 	.coffee_bean_name {
 		color: @textColor;
 		margin-top: 10px;
 		font-size: .9em;
+		width: 60%;
+		float: left;
 	}
 	.stars_rating {
 		color: @textColor;
 		font-size: .8em;
+		margin-bottom: 15px;
+		width: 67%;
+		float: left;
 	}
 }
 
+.beans_choice_img {
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	border: 5px solid #4a362c;
+}
+
+.beans_choice_img:hover {
+  -moz-box-shadow:    0 3px 5px 2px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 3px 5px 2px rgba(0,0,0,.5);
+  box-shadow:         0 3px 5px 2px rgba(0,0,0,.5);
+}
 
 
+@media (max-width: @screen-phone-max) {
+	.beans_choice_img {
+		width: 100%;
+	}
+}
+
+.info_modal {
+	color: @textColor;
+	font-size: 1.4em;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	float: right;
+	margin-right: 42px;
+	margin-top: -300px;
+}
+
+
+@media (max-width: @screen-phone-max) {
+	.click {
+	   pointer-events: none;
+	   cursor: default;
+	}
+}
+
+.info_modal:hover {
+	color: @textColor;
+	opacity: .7;
+}
+
+.modal-dialog {
+	padding-top: 100px;
+}
+
+.modal-content {
+	background-color: @textColor;
+}
+
+.modal-title {
+	font-family: 'Holtwood One SC', serif;
+	font-size: 2em;
+	color: #8d5a45;
+}
 
